@@ -1,0 +1,28 @@
+body{
+
+  min-height: 90vh;
+  display:flex;
+  background-color: #000;
+  justify-content: content;
+  align-items: center;
+}
+.color-picker{
+  position: relative;
+}
+.color-indicator{
+  display:inline-block;
+  width: 200px;
+  height:200px;
+  background-color:#fff;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+#color-picker{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+#color-code h1{
+  color: wheat;
+  margin:0 20px
+}
